@@ -12,8 +12,7 @@
       var ans = multiplication(b);
 
    console.log(b);
-      console.log(ans); 
-
+      console.log(ans);  
 
 //    when js stated  a global execution context is created , after that every variable has a value of undefined and every function have own code  into it , after that line by line  variable got their values , and function have their own execution context (which has its own memory and code part )
     
