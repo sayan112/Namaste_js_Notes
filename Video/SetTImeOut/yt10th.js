@@ -58,5 +58,5 @@
 
 
 
-//  setTimeout(()=>{console.log("2");},3000);
-//   console.log("hey its sayan  ") ;
+ setTimeout(()=>{console.log("2");},3000);
+  console.log("hey its sayan  ") ;
