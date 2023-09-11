@@ -1,28 +1,39 @@
+//  Let -> let is a block Sope variable , as well const is also a block Sope variable , But Var is Global Scope variable
+
+
 // when the let is not inialized it is in temporal dead zone :) samjeee when a variable is in temporal dead zone we cant access it 
 // thats why
+
+
+// ***Example***
+
 //  console.log(a);
 //   let a=10;
 //    console.log(a);
+
+
    //another thing for let and const also u can't redeclare it :) like u can't
 
-//    let a =20; // it will say can't redeclare a block scope variable 
-// in const there is one more thing which make its more strict :) 
-//  const b ;
-//   b =10;
+   // let a =20; // it will say can't redeclare a block scope variable  , in const there is one more thing which make its more strict :) 
+  //  const b ;
+  // b =10;
   // u can't do like that 
-//   u have to
-//  const b = 10;
+  // u have to
+ const b = 10;
 
 // let and const are block scoped 
 
-// {
-//    const a =10;
-//     let b= 10;
-//      var y=10;
-// }
-//  console.log(b); // we can't because it block scoped
-//   console.log(y);
-//  // accesable because y is a var and its in global scope
+
+
+// ***Example***
+{
+   const a =10;
+    let b= 10;
+     var y=10;
+}
+ console.log(b); // we can't because it block scoped
+  console.log(y);
+ // accesable because y is a var and its in global scope
 
 
 
@@ -30,7 +41,7 @@
 //  First Love your explanation with examples Akshay sir, videos are exact on point!!!
 // For Revision:
 // Q) What is block in JavaScript?
-// > multiple js statements formed in a group enclosed in brackets and it forms a block
+// > 
 
 
 // Q) What is need of a block/Grouping?
@@ -101,42 +112,3 @@
 //   console.log(need);
 //   need();
 
-
-
-
-
-
-
-// interview questions :)
-
-// What is the output of "10"+20+30 in JavaScript?
-// 102030 because after a string all the + will be treated as string concatenation operator (not binary +).
-
-// function display()  
-// {  
-//   document.writeln("10"+20+30);  
-// }  
-// display();  
-// const falsyValues = ["", 0, null, undefined, NaN, false]; 
-
-
-// console.log(2 + "2");
-// console.log("2" + "2");
-
-//console.log(3 - "2");
-//console.log("3" - "2");
-// console.log("A" - "A");
-
-
-// 22;
-// 22;
-
-// 1;
-// 1;
-// NaN;
-
-// Javascript + operator behaves as,
-
-// number operator when both operands are number
-// concat operator if any one or both of the operands are string.
-// Javascript - operator always behaves as number operator. if any one or both of the operands are string, Javascript attempts to convert it to a number, if not able to convert then return NaN.
