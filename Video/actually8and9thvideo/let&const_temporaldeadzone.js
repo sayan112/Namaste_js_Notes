@@ -92,6 +92,9 @@
 
 // Illegal shadowing:
 
+
+
+
 // let a = 200;
 // {
 //  var a =20;
@@ -111,4 +114,3 @@
 //  const need = x();
 //   console.log(need);
 //   need();
-

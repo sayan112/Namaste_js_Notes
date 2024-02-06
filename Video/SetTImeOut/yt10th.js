@@ -3,6 +3,14 @@
 // 2. Without closure the var reference gives the latest value as it does not retain the original value but rather has the reference so any update in value after timeout will be shown.
 // 3. If we use let/const because they have block scope, every time a new copy of variable is attached, thus this can be done without closure.
 
+
+//What is the use of setTimeOut() in javascript?
+// setTimeout() is a built-in function in JavaScript that allows you to schedule a function to be executed after a specified amount of time has elapsed.
+
+// What is the use of setInterval() in javascript?
+// setInterval() is a function in JavaScript that allows you to repeatedly execute a given function at a specified interval. It works by calling the function repeatedly with a specified time delay between each call, until the interval is cancelled.
+
+
 // const example = () => {
 //   for (var i = 0; i <= 5; i++) {
 //     setTimeout(() => {

@@ -1,13 +1,19 @@
 // ***removeDuplicates***
 
-var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
- const removethedublicate = (arr) => {
-   return [...new Set(arr)];
- };
- const newarr=[removethedublicate(arr)];
-  
-  
-//  console.log(newarr);
+// var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
+
+// const mySet1 = new Set();
+
+// for (let i of arr) {
+//   mySet1.add(i);
+// }
+
+// for (let i of mySet1) {
+//   console.log(i);
+// }
+
+
+
 
 
 //  <script>
@@ -31,7 +37,7 @@ var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
 // ***count the repeating elem***
 
  const arr =['a','a','c','c'];
-  let countarr={};
+  let countarr={};// defining an object
    for(const elem of arr)
    {
       if(!countarr[elem])
@@ -46,6 +52,28 @@ countarr[elem]=1;
 console.log(countarr);
 
 
+
+
+// other way with maps
+
+
+var fuits = ["apple", "mango", "apple", "orange", "mango", "mango"];
+
+const mp = new Map();
+for (let i of fuits) {
+  if (mp.has(i)) {
+    mp.set(i, mp.get(i) + 1);
+  } else {
+    mp.set(i, 1);
+  }
+}
+console.log(mp);
+
+const find="apple";
+if (mp.has(find)) {
+  console.log(mp.get(find));
+}
+ 
 
 
 // ***Example of clouser***
