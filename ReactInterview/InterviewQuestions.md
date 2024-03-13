@@ -3,7 +3,7 @@
 
 The important features of React are:
 
-It supports server-side rendering.(SEO FRIENDLY )
+It supports server-side rendering.(SEO FRIENDLY ) (Server-side rendering is the process of rendering a client-side JavaScript framework website to static HTML and CSS on the server, resulting in faster website load times. It allows the browser to render the page quickly using just HTML and CSS while the JavaScript downloads in the background)
 It will make use of the virtual DOM rather than real DOM (Data Object Model) as RealDOM manipulations are expensive.
 It follows unidirectional data binding or data flow.
 It uses reusable or composable UI components for developing the view.
