@@ -38,7 +38,6 @@
 
 
 
-//  First Love your explanation with examples Akshay sir, videos are exact on point!!!
 // For Revision:
 // Q) What is block in JavaScript?
 // > 

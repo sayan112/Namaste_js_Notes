@@ -30,7 +30,7 @@ var x=9 ;
 // *** Hoisting  ***
 
 //  what is hoising ?
-//   = hoising is a phenomena is Js , by which we can access the function ans variables even before we are declaring it .
+//   = hoising is a phenomena is Js , by which we can access the function and variables even before we are declaring it .
 
 
 // 1. In JS, before the code is executed, the variables get initialized to undefined.

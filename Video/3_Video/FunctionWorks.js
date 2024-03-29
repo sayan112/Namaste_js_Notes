@@ -8,7 +8,9 @@ function a() {
   x = 100;
   console.log(x);
 }
-console.log(x); //having a big quarry how x=200 , bcz it is modified 
+console.log(x); 
+
+//having a big quarry how x=200 , bcz it is modified 
 function b() {
   x = 200;
   console.log(x);
